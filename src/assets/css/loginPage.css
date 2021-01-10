@@ -1,0 +1,133 @@
+/* html {
+    min-height:100%;
+    position:relative
+} */
+.loginContainer {
+     background: #FBFFFF;box-shadow: 0 0 8px #d3d3cc; 
+     -webkit-box-shadow: 0 0 8px #d3d3cc;-moz-box-shadow: 0 0 8px #d3d3cc;
+     border-radius: 10px;-webkit-border-radius: 10px;
+     margin: 30px auto;overflow: hidden;}
+.loginContainer .loginSection { 
+    background: #fcfcfb; background: -moz-linear-gradient(top,#fcfcfb 0%,#efeee9 100%);
+     /* background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fcfcfb),color-stop(100%,#efeee9));  */
+     background: -webkit-linear-gradient(top,#fcfcfb 0%,#efeee9 100%); background: -o-linear-gradient(top,#fcfcfb 0%,#efeee9 100%); background: -ms-linear-gradient(top,#fcfcfb 0%,#efeee9 100%); background: linear-gradient(to bottom,#fcfcfb 0%,#efeee9 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfb',endColorstr='#efeee9',GradientType=0); border-left: 1px solid #d1d1d1; padding: 30px 4.5em; height: 100%; }
+.loginContainer .loginSection h2 { font-size: 30px; font-weight: normal; margin-bottom: 30px; }
+.loginSection form { margin-bottom: 30px; }
+.loginContainer .loginSection label{ margin-bottom: 5px;}
+.loginContainer .loginSection .form-control { font-size: 20px; height: 50px; }
+.loginContainer .loginSection .form-check { margin-bottom: 15px; margin-top: 15px; }
+.loginContainer .loginSection .form-check label { font-weight: normal; color: #6c6c6c; cursor: pointer; }
+.loginContainer .loginSection a{ text-decoration: underline;}
+.loginContainer .loginSection a:hover{ text-decoration: none;}
+.loginContainer h1 { font-size: 19px; font-style: italic; font-weight: normal; margin-bottom: 15px; line-height: 28px; }
+.loginContainer .loginSection form .alert{ font-size: 14px; font-weight: bold; line-height: 18px; padding: 10px 15px;}
+
+.loginContainer .leftSection { padding: 30px 0 15px 30px; }
+.loginContainer .leftSection .newsArchiveList { border-top: 1px solid #eeeeee; margin: 20px 0 0; padding: 20px 0; }
+.loginContainer .leftSection .newsArchiveList h2{ color: #111111; font-size: 19px; font-weight: normal; font-style: italic; margin-bottom: 15px; }
+
+.trial-infobanner {
+    background: #9c2023;
+    font-size: 22px;
+    color: #fff;
+    margin: 10px 0;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px;
+}
+
+
+/* Archive List and Testimonial Section Css
+========================================================================== */
+.loginContainer .leftSection .newsArchiveList ul{ }
+.loginContainer .leftSection .newsArchiveList ul li{ color: #767676; font-size: 15px; padding: 0 0 15px 23px; position: relative; }
+.loginContainer .leftSection .newsArchiveList ul li i.customicon { background:  no-repeat;  color: #97171a; font-size: 22px;  position: absolute;  left: 0px; top: 2px; background-position: -74px -54px; width: 10px; height: 11px; }
+
+.row-eq-height { flex-direction: row-reverse; }
+
+.modal-forgot { color: #767676; }
+.modal-forgot .modal-content { padding: 20px; }
+.modal-forgot .modal-content h2 { font-weight: 400; color: #111111; font-size: 30px; margin-bottom: 15px; }
+.modal-forgot .modal-content p { line-height: 26px; margin-bottom: 20px; }
+.modal-forgot .modal-content .form-inline .btn { max-width: 110px; width: 100%; vertical-align: top; }
+.modal-forgot .modal-content .form-control { margin-bottom: 10px; }
+.field-validation-error{display:block;}
+
+.modal-dialog.brandedUser-modal { max-width: 400px; text-align: center; }
+.modal-dialog.brandedUser-modal h4 { font-weight: bold; line-height: 25px; }
+.modal-dialog.brandedUser-modal span.orTxt { color: #9b1518; display: block; font-weight: bold; margin: 0px 5px 10px 0; }
+.modal-dialog.brandedUser-modal .bottomTxt { margin-top: 10px; font-weight: bold; line-height: 21px; font-size: 14px; }
+
+/* Logged In Section Css
+========================================================================== */
+.loggedInSection { text-align: center; padding: 30px 15px 50px; }
+.loggedInSection .icon{ margin-bottom: 30px;}
+.loggedInSection .icon img { transform: rotate(25deg); -webkit-transform: rotate(25deg); }
+.loggedInSection h1 { font-weight: bold; font-style: normal; font-size: 32px; color: #111111; }
+.loggedInSection .subText { color: #000000; font-size: 20px; padding-top: 10px; margin-bottom: 39px; }
+.loggedInSection .subText span { display: block; font-size: 12px; color: #6f6f6f; margin-top: 20px; }
+.loggedInSection .text{ max-width: 720px; margin: auto; line-height: 29px;}
+.loggedInSection .button{ margin-top: 40px;}
+.loggedInSection .button form { display: inline-block; margin: 0 10px; }
+.loggedInSection .button .btn { min-width: 170px; }
+
+#footer {
+    bottom:0
+}
+
+/*  RESPONSIVE CSS
+========================================================================== */
+@media (max-width:1000px) {
+    #header { margin-bottom: 0; }
+.loginContainer{ border-radius: 0; -webkit-border-radius: 0; margin-top: 0px;}
+.loginContainer .loginSection{ padding: 30px;}
+}
+@media (max-width:767px) {
+.loginContainer .loginSection { border-left: 0; border-bottom: 1px solid #d1d1d1; padding: 30px; }
+}
+@media (max-width:480px) {
+.loginContainer .loginSection { padding: 15px;}
+}
+
+/*password hide/show
+=============================================================*/
+.input-group {
+    display: inline-block;
+    position:relative;
+    width: 100%
+}
+
+.input-append .form-control {
+    border-radius: 3px !important;
+    padding-right: 40px;
+}
+
+.input-append .input-group-addon {
+    border: 0px !important;
+    cursor: pointer;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    z-index: 11;
+    width: 50px;
+    height: 48px;
+    line-height: 41px;
+    background: none;
+    cursor: pointer;
+    padding: 6px 12px;
+    text-align:center
+}
+    /* .input-append .input-group-addon .glyphicon-eye-close:before {
+        width: 22px;
+        display: inline-block;
+    } */
+
+    /* .input-append .input-group-addon .glyphicon-eye-open:before {
+      
+        width: 22px;
+        display: inline-block;
+    } */
+
+/* .glyphicon-eye-open::before, .glyphicon-eye-close::before {
+    content: none;
+} */
